@@ -5,6 +5,7 @@ import Services from './components/Services';
 import Gallery from './components/Gallery';
 import Team from './components/Team';
 import ContactForm from './components/ContactForm';
+import Map from './components/Map';
 import Footer from './components/Footer';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Gallery />
       <Team />
       <ContactForm />
+      <Map />
       <Footer />
     </div>
   );
