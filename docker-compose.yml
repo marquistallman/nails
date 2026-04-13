@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: nails-landing
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./src/pages/home:/app/src/pages/home
+      - /app/src/pages/home/node_modules
+    command: npm run dev
+    restart: unless-stopped

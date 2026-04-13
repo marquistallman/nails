@@ -1,0 +1,21 @@
+# Dependencias
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Archivos de caché
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Builds
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
